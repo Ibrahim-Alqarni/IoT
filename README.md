@@ -1,3 +1,3 @@
 # IoT
-# EE 629
+## EE 629
 Home Security Camera
