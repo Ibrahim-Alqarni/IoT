@@ -25,7 +25,7 @@ while True:
     camera.start_recording(video_name + h264_video)
     pir.wait_for_no_motion()
     camera.stop_recording()
-    os.system("MP4Box -add " + video_name + h264_video + " " + video_name + mp4_video) # tutorial for install to make this conversion possible at: http://raspi.tv/2013/another-way-to-convert-raspberry-pi-camera-h264-output-to-mp4
+    os.system("MP4Box -add " + video_name + h264_video + " " + video_name + mp4_video)
     os.system("rm " + video_name + h264_video) # delete h264 file
     footage = video_name + mp4_video
 
