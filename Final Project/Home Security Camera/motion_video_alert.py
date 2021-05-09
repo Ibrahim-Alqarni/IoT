@@ -34,7 +34,7 @@ while True:
     msg = MIMEMultipart()
     msg["Subject"] = f_time
     msg["From"] = "camsec.ee629@gmail.com"
-    msg["To"] = "camsec.ee629@gmail.com"
+    msg["To"] = "ibrahim.alqarni.93@gmail.com"
     text = MIMEText("WARNING! Motion Detected!")
     msg.attach(text)
 
