@@ -6,4 +6,4 @@
 
 ### In this project, I will use Raspberry Pi 4, 5 Megapixels 1080p Sensor Mini Camera Module, PIR Sensor Infrared IR Body Motion Module, and 3 Female to Female Jumper Wires.
 
-![](Final Project/Home Security Camera/Project_equipments.jpg)
+![](images/Project_equipments.jpg)
