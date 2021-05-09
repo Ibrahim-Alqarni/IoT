@@ -1,1 +1,1 @@
-![](images/Project_equipments.jpg)
+![](Camera/Project_equipments.jpg)
