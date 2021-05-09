@@ -1,1 +1,1 @@
-Video
+![](images/Project_equipments.jpg)
