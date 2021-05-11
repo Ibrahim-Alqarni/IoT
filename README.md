@@ -10,4 +10,4 @@
 
 ## Credit
 
-Motion Video Camera was originally created by [Andy Orr](https://github.com/AO8).
+Motion Video Camera was originally created by [Andy Orr](https://gist.github.com/AO8/29e04da9a0410fd672d1e29b65908808#file-motion_video_alert-py).
