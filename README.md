@@ -10,7 +10,5 @@
 
 ## Credit
 
-### The following contributions by AO8 and others:
+### The following contributions by [AO8](https://gist.github.com/AO8/29e04da9a0410fd672d1e29b65908808#file-motion_video_alert-py) and [others](http://raspi.tv/2013/another-way-to-convert-raspberry-pi-camera-h264-output-to-mp4):
 Python, a PIR sensor, Raspberry Pi, and PiCamera to detect motion, record h264 video with timestamp, convert to mp4, then email video as an attachment from Gmail. 
-
-Created by [AO8](https://gist.github.com/AO8/29e04da9a0410fd672d1e29b65908808#file-motion_video_alert-py) and [others](http://raspi.tv/2013/another-way-to-convert-raspberry-pi-camera-h264-output-to-mp4). 
