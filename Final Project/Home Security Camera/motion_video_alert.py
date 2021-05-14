@@ -48,8 +48,8 @@ while True:
     # access Gmail account and send email
     server = smtplib.SMTP("smtp.gmail.com:587")
     server.starttls()
-    server.login("camsec.ee629@gmail.com","EE629-Project")
-    server.sendmail("camsec.ee629@gmail.com", "camsec.ee629@gmail.com", msg.as_string())
+    server.login("your_gmail_login","your_gmail_password")
+    server.sendmail("your_address@gmail.com", "to_address@gmail.com", msg.as_string())
     server.quit()
 
     # delete mp4 from Pi after it has been emailed
