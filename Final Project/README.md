@@ -22,11 +22,7 @@ The second email is the receiver email
 ```sh
 37    msg["To"] = "...@gmail.com"
 ``` 
-In line 38: 
-The text inside the "" is the email subject
-```sh
-38    text = MIMEText("WARNING! Motion Detected!")
-``` 
+
 Second, you need to access to a Gmail address. 
 
 ##### To do that in motion_video_alert.py: 
