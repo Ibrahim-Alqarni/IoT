@@ -1,12 +1,3 @@
-### To convert video.mp4 to video.gif:
-```sh
-pi@raspberrypi:~ $ sudo apt install ffmpeg
-```
-```sh
-pi@raspberrypi:~ $ ffmpeg -i the_video.mp4 the_video.gif
-```
-![](Camera/video.gif)
-
 ### For sending the Video .mp4 to the email you have to do two steps in motion_video_alert.py:
 
 #### First, you need to prepare the Email.
@@ -33,3 +24,12 @@ In line 52: first parameter "" should be Sender Gmail Address, and the second pa
 ```sh
 52    server.sendmail("....@gmail.com", "....@gmail.com", msg.as_string())
 ``` 
+
+### To convert video.mp4 to video.gif:
+```sh
+pi@raspberrypi:~ $ sudo apt install ffmpeg
+```
+```sh
+pi@raspberrypi:~ $ ffmpeg -i the_video.mp4 the_video.gif
+```
+![](Camera/video.gif)
