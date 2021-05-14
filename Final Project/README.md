@@ -22,7 +22,7 @@ The second email is the receiver email
 37    msg["To"] = "...@gmail.com"
 ``` 
 
-Second, you need to access to a Gmail address account to send the video. 
+Second, you need to access to a Gmail Address Account to send the video. 
 
 ##### To do that: 
 In line 51: first parameter "" should be the Gamai Address, and the second parameter "" should be the Google App Password.
