@@ -1,3 +1,19 @@
+## In motion_video_alert.py
+### From line 1 to 12 cover required imports to make the script work.:
+```sh
+from gpiozero import MotionSensor
+from picamera import PiCamera
+from datetime import datetime
+from email.mime.multipart import MIMEMultipart
+from email.mime.base import MIMEBase
+from email.mime.text import MIMEText
+import email.encoders
+import smtplib
+import os
+import email
+import sys
+import time
+``` 
 ### For sending the Video .mp4 to the email you have to do two steps in motion_video_alert.py:
 
 #### First, you need to prepare the Email.
