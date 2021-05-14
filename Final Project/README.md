@@ -76,7 +76,7 @@ In line 51: first parameter "" should be the Gamai Address, and the second param
 ```sh
 51    server.login("....@gmail.com","....")
 ``` 
-In line 52: first parameter "" should be Sender Gmail Address, and the second parameter "" should be Receiver Gmail Address
+In line 52: first parameter "" should be the Sender Gmail Address, and the second parameter "" should be the Receiver Gmail Address
 ```sh
 52    server.sendmail("....@gmail.com", "....@gmail.com", msg.as_string())
 ``` 
