@@ -1,4 +1,4 @@
-## In motion_video_alert.py
+## In motion_video_alert.py in Home Security Camera folder:
 ### From line 1 to 12 cover required imports to make the script work:
 ```sh
 1   from gpiozero import MotionSensor
