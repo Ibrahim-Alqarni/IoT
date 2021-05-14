@@ -34,7 +34,7 @@
 26      pir.wait_for_no_motion()
 27      camera.stop_recording()
 28      os.system("MP4Box -add " + video_name + h264_video + " " + video_name + mp4_video)
-29      os.system("rm " + video_name + h264_video) # delete h264 file
+29      os.system("rm " + video_name + h264_video)
 30      footage = video_name + mp4_video
 ``` 
 ### From line 33 to 39 are preparing the email we’re about to send:
