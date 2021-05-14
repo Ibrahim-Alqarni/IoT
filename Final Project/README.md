@@ -26,7 +26,7 @@
 ```sh
 20   while True:
 ``` 
-### From line 23 to 30 represent the sensor detecting motion. Once motion is detected, the camera will begin recording video. Once the sensor registers the absence of motion, the camera will stop recording, leaving us with an h264 video file that is conveniently named with a month-day-year-hour-minute-second format:
+### From line 23 to 30 represent the sensor detecting motion. Once motion is detected, the camera will begin recording video. Once the sensor registers the absence of motion, the camera will stop recording:
 ```sh
 23      pir.wait_for_motion()
 24      video_name = datetime.now().strftime("%m-%d-%Y_%H.%M.%S")
