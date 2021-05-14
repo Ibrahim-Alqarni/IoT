@@ -1,18 +1,18 @@
 ## In motion_video_alert.py in Home Security Camera folder:
 ### From line 1 to 12 cover required imports to make the script work:
 ```sh
-1   from gpiozero import MotionSensor
-2   from picamera import PiCamera
-3   from datetime import datetime
-4   from email.mime.multipart import MIMEMultipart
-5   from email.mime.base import MIMEBase
-6   from email.mime.text import MIMEText
-7   import email.encoders
-8   import smtplib
-9   import os
-10  import email
-11  import sys
-12  import time
+1    from gpiozero import MotionSensor
+2    from picamera import PiCamera
+3    from datetime import datetime
+4    from email.mime.multipart import MIMEMultipart
+5    from email.mime.base import MIMEBase
+6    from email.mime.text import MIMEText
+7    import email.encoders
+8    import smtplib
+9    import os
+10   import email
+11   import sys
+12   import time
 ``` 
 ### From line 14 to 18 establish important variables needed to make the camera and PIR sensor work properly:
 ```sh
