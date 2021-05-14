@@ -1,4 +1,4 @@
-## To convert video.mp4 to video.gif:
+### To convert video.mp4 to video.gif:
 ```sh
 pi@raspberrypi:~ $ sudo apt install ffmpeg
 ```
@@ -7,11 +7,10 @@ pi@raspberrypi:~ $ ffmpeg -i the_video.mp4 the_video.gif
 ```
 ![](Camera/video.gif)
 
-## For sending the Video .mp4 to the email you have to do two steps:
+### For sending the Video .mp4 to the email you have to do two steps in motion_video_alert.py:
 
-### To send the video through the email: 
 #### First, you need to prepare the Email.
-##### To do that in motion_video_alert.py: 
+##### To do that: 
 In line 36: 
 The first email is the sender email 
 ```sh
@@ -23,9 +22,9 @@ The second email is the receiver email
 37    msg["To"] = "...@gmail.com"
 ``` 
 
-Second, you need to access to a Gmail address. 
+Second, you need to access to a Gmail address account to send the video. 
 
-##### To do that in motion_video_alert.py: 
+##### To do that: 
 In line 51: first parameter "" should be the Gamai Address, and the second parameter "" should be the Google App Password.
 ```sh
 51    server.login("....@gmail.com","....")
